@@ -57,7 +57,7 @@ body{
     width: 80%;
 }
 
-.particle-container .particle{
+.snow-ball-container .snow-ball{
     position: absolute;
     height: 10px;
     width: 10px;
@@ -70,67 +70,67 @@ body{
 
 
 
-.particle-container .particle:nth-child(even){
+.snow-ball-container .snow-ball:nth-child(even){
     width: 16px;
     height: 16px;
     background: url('./snowflake.png');
 }
 
 /* row 1 column 1 */
-.particle-container .particle:nth-child(1){
+.snow-ball-container .snow-ball:nth-child(1){
     top: 22%;
     left: 25%;
     animation: particle-motion 7s linear infinite;
 }
 
-.particle-container .particle:nth-child(2){
+.snow-ball-container .snow-ball:nth-child(2){
     top: 13%;
     left: 20%;
     animation: flake-motion 8s linear infinite;
 }
 
 
-.particle-container .particle:nth-child(3){
+.snow-ball-container .snow-ball:nth-child(3){
     top: 10%;
     left: 4%;
     animation: particle-motion 7s linear infinite;
 }
 
 /* row 1 column 2 */
-.particle-container .particle:nth-child(4){
+.snow-ball-container .snow-ball:nth-child(4){
     top: 20%;
     left: 38%;
     animation: flake-motion 9s linear infinite;
 }
-.particle-container .particle:nth-child(5){
+.snow-ball-container .snow-ball:nth-child(5){
     top: 17%;
     left: 54%;
     animation: particle-motion 7s linear infinite;
 }
 
-.particle-container .particle:nth-child(6){
+.snow-ball-container .snow-ball:nth-child(6){
     top: 5%;
     left: 50%;
     animation: flake-motion 8s linear infinite;
 }
 
 /* row 1 column 3 */
-.particle-container .particle:nth-child(7){
+.snow-ball-container .snow-ball:nth-child(7){
     top: 12%;
     left: 70%;
     animation: particle-motion 9s linear infinite;
 }
-.particle-container .particle:nth-child(8){
+.snow-ball-container .snow-ball:nth-child(8){
     top: 20%;
     left: 85%;
     animation: flake-motion 8s linear infinite;
 }
-.particle-container .particle:nth-child(9){
+.snow-ball-container .snow-ball:nth-child(9){
     top: 25%;
     left: 72%;
     animation: particle-motion 7s linear infinite;
 }
-.particle-container .particle:nth-child(10){
+.snow-ball-container .snow-ball:nth-child(10){
     top: 11%;
     left: 80%;
     animation: flake-motion 7s linear infinite;
@@ -139,116 +139,116 @@ body{
 /* Middle Range */
 
 /* row 2 column 1 */
-.particle-container .particle:nth-child(11){
+.snow-ball-container .snow-ball:nth-child(11){
     top: 38%;
     left: 15%;
     animation: particle-motion 9s linear infinite;
 }
 
-.particle-container .particle:nth-child(12){
+.snow-ball-container .snow-ball:nth-child(12){
     top: 47%;
     left: 25%;
     animation: flake-motion 7s linear infinite;
 }
-.particle-container .particle:nth-child(13){
+.snow-ball-container .snow-ball:nth-child(13){
     top: 55%;
     left: 8%;
     animation: particle-motion 9s linear infinite;
 }
 
 /* row 2 column 2 */
-.particle-container .particle:nth-child(14){
+.snow-ball-container .snow-ball:nth-child(14){
     top: 35%;
     left: 40%;
     animation: flake-motion 8s linear infinite;
 }
-.particle-container .particle:nth-child(15){
+.snow-ball-container .snow-ball:nth-child(15){
     top: 47%;
     left: 55%;
     animation: particle-motion 7s linear infinite;
 }
-.particle-container .particle:nth-child(16){
+.snow-ball-container .snow-ball:nth-child(16){
     top: 50%;
     left: 39%;
     animation: flake-motion 8s linear infinite;
 }
-.particle-container .particle:nth-child(17){
+.snow-ball-container .snow-ball:nth-child(17){
     top: 40%;
     left: 40%;
     animation: particle-motion 9s linear infinite;
 }
 
 /* row 2 column 3 */
-.particle-container .particle:nth-child(18){
+.snow-ball-container .snow-ball:nth-child(18){
     top: 37%;
     left: 35%;
     animation: flake-motion 7s linear infinite;
 }
-.particle-container .particle:nth-child(19){
+.snow-ball-container .snow-ball:nth-child(19){
     top: 41%;
     left: 52%;
     animation: particle-motion 7s linear infinite;
 }
 
-.particle-container .particle:nth-child(20){
+.snow-ball-container .snow-ball:nth-child(20){
     top: 59%;
     left: 59%;
     animation: flake-motion 7s linear infinite;
 }
 
 /* row 3 column 1 */
-.particle-container .particle:nth-child(21){
+.snow-ball-container .snow-ball:nth-child(21){
     top: 64%;
     left: 9%;
     animation: particle-motion 9s linear infinite;
 }
 
-.particle-container .particle:nth-child(22){
+.snow-ball-container .snow-ball:nth-child(22){
     top: 77%;
     left: 25%;
     animation: flake-motion 7s linear infinite;
 }
-.particle-container .particle:nth-child(23){
+.snow-ball-container .snow-ball:nth-child(23){
     top: 87%;
     left: 23%;
     animation: particle-motion 9s linear infinite;
 }
 
 /* row 3 column 2 */
-.particle-container .particle:nth-child(24){
+.snow-ball-container .snow-ball:nth-child(24){
     top: 70%;
     left: 40%;
     animation: flake-motion 8s linear infinite;
 }
-.particle-container .particle:nth-child(25){
+.snow-ball-container .snow-ball:nth-child(25){
     top: 77%;
     left: 55%;
     animation: particle-motion 7s linear infinite;
 }
-.particle-container .particle:nth-child(26){
+.snow-ball-container .snow-ball:nth-child(26){
     top: 80%;
     left: 80%;
     animation: flake-motion 18s linear infinite;
 }
 
 /* row 3 column 3 */
-.particle-container .particle:nth-child(27){
+.snow-ball-container .snow-ball:nth-child(27){
     top: 60%;
     left: 70%;
     animation: particle-motion 9s linear infinite;
 }
-.particle-container .particle:nth-child(28){
+.snow-ball-container .snow-ball:nth-child(28){
     top: 73%;
     left: 75%;
     animation: flake-motion 17s linear infinite;
 }
-.particle-container .particle:nth-child(29){
+.snow-ball-container .snow-ball:nth-child(29){
     top: 90%;
     left: 80%;
     animation: particle-motion 7s linear infinite;
 }
 
-.particle-container .particle:nth-child(30){
+.snow-ball-container .snow-ball:nth-child(30){
     top: 68%;
     left: 88%;
     animation: flake-motion 17s linear infinite;
