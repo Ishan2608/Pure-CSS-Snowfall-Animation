@@ -1,3 +1,5 @@
+/* General Style */
+
 *{
     padding: 0%;
     margin: 0%;
@@ -9,6 +11,8 @@ body{
     height: 100vh;
     overflow-x: hidden;
 }
+
+/* Container Style */
 
 .container{
     position: relative;
@@ -28,6 +32,8 @@ body{
     height: 100%;
     background: rgba(0, 0, 0, 0.479);
 }
+
+/* Style Text Content */
 
 .text-content{
     position: absolute;
@@ -57,6 +63,8 @@ body{
     width: 80%;
 }
 
+/* Style Snowballs and Snowflakes */
+
 .snow-ball-container .snow-ball{
     position: absolute;
     height: 10px;
@@ -66,21 +74,20 @@ body{
 
 }
 
-/* Top Range - Keep the particle in the top 30% of the screen, evenly distributed between left, mid and right sides*/ 
-
-
-
 .snow-ball-container .snow-ball:nth-child(even){
     width: 16px;
     height: 16px;
     background: url('./snowflake.png');
 }
 
+
+/* Position the Snowballs Uniformly */
+
 /* row 1 column 1 */
 .snow-ball-container .snow-ball:nth-child(1){
     top: 22%;
     left: 25%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 
 .snow-ball-container .snow-ball:nth-child(2){
@@ -93,7 +100,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(3){
     top: 10%;
     left: 4%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 
 /* row 1 column 2 */
@@ -105,7 +112,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(5){
     top: 17%;
     left: 54%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 
 .snow-ball-container .snow-ball:nth-child(6){
@@ -118,7 +125,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(7){
     top: 12%;
     left: 70%;
-    animation: particle-motion 9s linear infinite;
+    animation: snowball-motion 9s linear infinite;
 }
 .snow-ball-container .snow-ball:nth-child(8){
     top: 20%;
@@ -128,7 +135,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(9){
     top: 25%;
     left: 72%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 .snow-ball-container .snow-ball:nth-child(10){
     top: 11%;
@@ -142,7 +149,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(11){
     top: 38%;
     left: 15%;
-    animation: particle-motion 9s linear infinite;
+    animation: snowball-motion 9s linear infinite;
 }
 
 .snow-ball-container .snow-ball:nth-child(12){
@@ -153,7 +160,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(13){
     top: 55%;
     left: 8%;
-    animation: particle-motion 9s linear infinite;
+    animation: snowball-motion 9s linear infinite;
 }
 
 /* row 2 column 2 */
@@ -165,7 +172,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(15){
     top: 47%;
     left: 55%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 .snow-ball-container .snow-ball:nth-child(16){
     top: 50%;
@@ -175,7 +182,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(17){
     top: 40%;
     left: 40%;
-    animation: particle-motion 9s linear infinite;
+    animation: snowball-motion 9s linear infinite;
 }
 
 /* row 2 column 3 */
@@ -187,7 +194,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(19){
     top: 41%;
     left: 52%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 
 .snow-ball-container .snow-ball:nth-child(20){
@@ -196,11 +203,13 @@ body{
     animation: flake-motion 7s linear infinite;
 }
 
+/* Bottom Range */
+
 /* row 3 column 1 */
 .snow-ball-container .snow-ball:nth-child(21){
     top: 64%;
     left: 9%;
-    animation: particle-motion 9s linear infinite;
+    animation: snowball-motion 9s linear infinite;
 }
 
 .snow-ball-container .snow-ball:nth-child(22){
@@ -211,7 +220,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(23){
     top: 87%;
     left: 23%;
-    animation: particle-motion 9s linear infinite;
+    animation: snowball-motion 9s linear infinite;
 }
 
 /* row 3 column 2 */
@@ -223,7 +232,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(25){
     top: 77%;
     left: 55%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 .snow-ball-container .snow-ball:nth-child(26){
     top: 80%;
@@ -235,7 +244,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(27){
     top: 60%;
     left: 70%;
-    animation: particle-motion 9s linear infinite;
+    animation: snowball-motion 9s linear infinite;
 }
 .snow-ball-container .snow-ball:nth-child(28){
     top: 73%;
@@ -245,7 +254,7 @@ body{
 .snow-ball-container .snow-ball:nth-child(29){
     top: 90%;
     left: 80%;
-    animation: particle-motion 7s linear infinite;
+    animation: snowball-motion 7s linear infinite;
 }
 
 .snow-ball-container .snow-ball:nth-child(30){
@@ -254,7 +263,9 @@ body{
     animation: flake-motion 17s linear infinite;
 }
 
-@keyframes particle-motion {
+/* Define animations of Snowball and Snowflakes */
+
+@keyframes snowball-motion {
     0%{
         transform: translate(0);
         opacity: 1;
