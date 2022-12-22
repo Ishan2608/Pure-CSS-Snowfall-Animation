@@ -83,7 +83,7 @@ body{
 }
 
 
-/* Position the Snowballs Uniformly */
+/* Position the Snowballs above the screen */
 
 .snow-ball-container .snow-ball:nth-child(1){
     top: -50%;
